@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  position: relative;
+}
+.custom:hover {
+  border-bottom: 3px solid limegreen;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+  .custom:hover {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
